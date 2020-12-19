@@ -72,23 +72,6 @@ if ( !class_exists( 'Ds_Init' ) ) {
         public function trigger_email_invoice( $order, $sent_to_admin, $plain_text, $email ) {
             $this->weekdays_condition();
         }
-
-        /* Proceed with this workflow if the client wants msg in single dashboard order
-        public function single_order_msg() {
-            add_meta_box(
-                'single-order-msg',
-                __( 'Delivery day' ),
-                array( $this, 'single_order_msg_callback' ),
-                'shop_order',
-                'normal',
-                'default'
-            );
-        }
-
-        public function single_order_msg_callback() {
-            echo 'test';
-        }
-        */
     }
 
     new Ds_Init();
