@@ -1,0 +1,1 @@
+Delivery System is a small application which manage to provide to the client weekdays system based on product orders
